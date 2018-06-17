@@ -127,7 +127,12 @@ function listAlignedStatements(statementsList) {
         var chk = document.createElement("input");
         chk.type = "checkbox";
         var chkText = document.createElement("span");
-        var chkCaption = document.createTextNode("Nailed It");
+        if (item.Score > -30) {
+            var chkCaption = document.createTextNode("Nailed It");
+        }
+        else {
+            var chkCaption = document.createTextNode("Notify");
+        }
         chkText.appendChild(chkCaption);
         label.appendChild(chk);
         label.appendChild(chkText);
