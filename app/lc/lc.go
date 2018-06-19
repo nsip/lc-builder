@@ -13,7 +13,7 @@ import (
 func main() {
 
 	cu.Init()
-	re.Init()
+	re.Init("1323")
 
 	// Echo instance
 	e := echo.New()
