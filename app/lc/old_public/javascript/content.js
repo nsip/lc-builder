@@ -59,7 +59,7 @@ function doCurriculumResourcesRequest() {
     };
     xhttp.open("GET", "/align", true);
     xhttp.setRequestHeader("Content-type", "application/json");
-    xhttp.send("text=Geology");
+    xhttp.send("text=Hamlet");
 }
 
 

@@ -14,3 +14,6 @@ var ChallengeSting = "";
 
 var ChallengeDescription = "";
 
+
+
+var LC = {};
